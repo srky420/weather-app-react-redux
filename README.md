@@ -1,5 +1,5 @@
 # Introction
-A weather app created using React, Redux and TailwindCSS. Consumes [https://openweathermap.org/api](OpenWeatherMap) to fetch locations, weather and forecast data.
+A weather app created using React, Redux and TailwindCSS. Consumes [OpenWeatherMap](https://openweathermap.org/api) to fetch locations, weather and forecast data.
 
 # Features
 - Search locations for weather information
@@ -7,7 +7,7 @@ A weather app created using React, Redux and TailwindCSS. Consumes [https://open
 - Shows 5 day weather forecast
 - Utilizes OpenWeatherMap API to fetch weather data
 
-## [https://search-weather-app-react-redux.netlify.app/](Visit here)
+## [Visit here](https://search-weather-app-react-redux.netlify.app/)
 
 # Netlify CLI
 This project utilizes Netlify functions to securely access API.
@@ -15,14 +15,15 @@ Install Netlify CLI,
 
     npm install -g netlify-cli
 
-Run project using
+Make sure to get your API key from (https://openweathermap.org/api)[OpenWeatherMap] API and store it in .env.development.local at root level of project.
 
-    netlify dev
-
-Make sure to get your API key from (https://openweathermap.org/api)[OpenWeatherMap] API and store it in .env.development.local at root level of project
 Store API key in .env.development.local as,
 
     REACT_APP_API_KEY=<api_key>
+
+Run project using
+
+    netlify dev
 
 
 # Getting Started with Create React App
