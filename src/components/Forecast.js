@@ -7,7 +7,7 @@ export const Forecast = () => {
     const forecastData = useSelector(state => state.weather.forecastData);
     const fetching = useSelector(state => state.weather.fetchingForecast);
 
-    const weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
     let currentDate = new Date();
     const forecastList = forecastData.list && forecastData.list.filter((item) => {
         const date = new Date(item.dt_txt)
