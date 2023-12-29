@@ -33,7 +33,7 @@ export const Forecast = () => {
                             <img src={`https://openweathermap.org/img/wn/${item.weather[0].icon.replace('n', 'd')}@2x.png`} 
                                 className="brightness-200 saturate-200 mx-auto" alt="forecast" />
                             <div className="text-xs min-[480px]:text-sm sm:text-lg lg:text-xl pb-2 font-semibold">{Math.round(item.main.temp)}&deg;C</div>
-                            <div className="text-xs min-[480px]:text-sm sm:text-lg lg:text-xl pb-2">{item.weather[0].main}</div>
+                            <div className="text-xs min-[480px]:text-sm sm:text-lg lg:text-xl pb-2 break-words p-1">{item.weather[0].main}</div>
                         </div>
                     </div>)
                     )}
