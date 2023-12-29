@@ -13,9 +13,9 @@ A weather app created using React, Redux and TailwindCSS. Consumes [OpenWeatherM
 
 Clone project,
 
-        git clone https://github.com/srky420/weather-app-react-redux.git
+    git clone https://github.com/srky420/weather-app-react-redux.git
 
-        cd weather-app-react-redux
+    cd weather-app-react-redux
 
 Install dev dependancies,
 
