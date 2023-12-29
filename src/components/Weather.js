@@ -32,17 +32,17 @@ export const Weather = () => {
                         <p className="text-xs min-[480px]:text-sm sm:text-lg lg:text-xl">{weather[0].main}, {/.d$/g.test(weather[0].icon) ? 'Day' : 'Night'}</p>
                     </div>
                     <div className="w-full text-xs sm:text-sm lg:text-lg px-1">
-                        <div className="border-b py-1">
-                            <p className="inline-block">Wind </p>
-                            <p className="inline-block float-end">{Math.round(weatherData.wind.speed) || 0} M/S</p>
+                        <div className="flex justify-between border-b py-1">
+                            <p>Wind </p>
+                            <p>{Math.round(weatherData.wind.speed) || 0} M/S</p>
                         </div>
-                        <div className="border-b py-1">
-                            <p className="inline-block">Gust </p>
-                            <p className="inline-block float-end">{Math.round(weatherData.wind.gust) || 0} M/S</p>
+                        <div className="flex justify-between border-b py-1">
+                            <p>Gust </p>
+                            <p>{Math.round(weatherData.wind.gust) || 0} M/S</p>
                         </div>
-                        <div className="py-1">
-                            <p className="inline-block">Visibility </p>
-                            <p className="inline-block float-end">{Math.round(weatherData.visibility / 1000)} KM</p>
+                        <div className="flex justify-between py-1">
+                            <p>Visibility </p>
+                            <p>{Math.round(weatherData.visibility / 1000)} KM</p>
                         </div>
                     </div>
                 </div>}
