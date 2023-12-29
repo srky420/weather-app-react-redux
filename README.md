@@ -19,7 +19,7 @@ Clone project,
 
 Install dev dependancies,
 
-        npm install
+    npm install
 
 
 # Usage
