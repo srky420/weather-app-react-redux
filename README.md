@@ -15,7 +15,7 @@ Install Netlify CLI,
 
     npm install -g netlify-cli
 
-Make sure to get your API key from (https://openweathermap.org/api)[OpenWeatherMap] API and store it in .env.development.local at root level of project.
+Make sure to get your API key from [OpenWeatherMap](https://openweathermap.org/api) API and store it in .env.development.local at root level of project.
 
 Store API key in .env.development.local as,
 
